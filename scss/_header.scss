@@ -1,0 +1,92 @@
+.header{
+    &-home{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        top:0;
+        .logo{
+            width: 9rem;
+            padding: .6rem;
+            margin: 1.4rem;
+            margin-left:3rem;
+            img{
+                border-radius: 50px;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+        }
+        .header-navbar{
+            &-lists{
+                list-style: none;
+                display: flex;
+                padding: .7rem 1.4rem;
+                li{
+                    a{
+                        display: inline-block;
+                        padding: 1.4rem 1.4rem;
+                        text-transform: uppercase;
+                        color: $primary-color;
+                        margin: 1rem;
+                        transition: border-bottom 1s;
+                        font-weight: bold;
+
+                        &:hover{
+                            border-bottom: 1px solid $primary-color;
+                        }
+                        &.active{
+                            border-bottom: 1px solid $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-inner{
+        border: 1px solid $primary-color;
+        display: flex;
+        justify-content: space-between;
+        background: url('../img/bg.jpeg') no-repeat 50% 17% / cover;
+        opacity: .9;
+        .logo{
+            width: 9rem;
+            padding: .6rem;
+            margin: 1.4rem;
+            margin-left:3rem;
+            img{
+                border-radius: 50px;
+                &:hover{
+                    opacity: .7;
+                }
+            }
+        }
+        .header-navbar{
+            &-lists{
+                list-style: none;
+                display: flex;
+                padding: .7rem 1.4rem;
+                li{
+                    a{
+                        display: inline-block;
+                        padding: 1.4rem 1.4rem;
+                        text-transform: uppercase;
+                        color: $primary-color;
+                        margin: 1rem;
+                        transition: border-bottom 1s;
+                        font-weight: bold;
+
+                        &:hover{
+                            border-bottom: 1px solid $primary-color;
+                        }
+                        &.active{
+                            border-bottom: 1px solid $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

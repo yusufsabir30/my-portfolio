@@ -1,0 +1,35 @@
+.container{
+    max-width: 1200px;
+    padding: 0 1.4rem;
+    margin: auto;
+}
+
+//buttons
+
+%btn-shared {
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn{
+    &-primary{
+        @extend %btn-shared;
+        color:#333;
+        background-color: $primary-color;
+    }
+    &-light{
+        @extend %btn-shared;
+        color:#333;
+        background-color: $light-color;
+    }
+    &-dark{
+        @extend %btn-shared;
+        color:#fff;
+        background-color: $dark-color;
+    }
+}
+

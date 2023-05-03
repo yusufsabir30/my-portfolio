@@ -1,0 +1,203 @@
+//bigger than tablets
+
+@media(max-width: 1200px) {
+  html{
+    font-size: 9px;
+  }
+  .scroll-totop{
+    bottom:3rem;
+  }
+  .header{
+    &-home{
+      .logo{
+        width: 7rem;
+        margin-top: 1.6rem;
+      }
+    }
+    
+  }
+  main{
+    .first-view{
+        height: 72vh;
+        .header-content{
+          h1{
+            font-size: 3.5rem;
+          }
+          .typewrite{
+            font-size: 2.5rem;
+          }
+        }
+       
+      }
+    .introduction{
+      .article{
+        width: 850px;
+        .abilities{
+          grid-template-columns: repeat(5,1fr);
+        }
+      }
+    }
+    .second-view{
+      height: 86vh;
+      .container{
+        .aboutme-photo{
+          width: 170rem;
+          margin-top: 8rem;
+        }
+        .aboutme-text{
+          margin-top: 13rem;
+        }
+      }
+    }
+  }
+
+  .contact-form{
+    .container{
+      .form-fields{
+        .input{
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+  .space{
+    height: 18.4vh;
+  }
+    
+    
+}
+
+//tablets
+@media(max-width: 768px) {
+  html{
+    font-size: 8px;
+  }
+  .scroll-totop{
+    bottom:3rem;
+  }
+  .header{
+    &-home{
+      .logo{
+        width: 6rem;
+        margin-top: 1.6rem;
+      }
+    }
+    
+  }
+  main{
+    .first-view{
+        height: 74vh;
+        .header-content{
+          h1{
+            font-size: 3.5rem;
+          }
+          .typewrite{
+            font-size: 2.5rem;
+          }
+        }
+       
+      }
+    .introduction{
+      .article{
+        width: 675px;
+        .abilities{
+          grid-template-columns: repeat(1,1fr);
+        }
+      }
+    }
+    .second-view{
+      height: 86vh;
+      .container{
+        .aboutme-photo{
+          width: 400rem;
+          margin-top: 16rem;
+        }
+      }
+    }
+  }
+    
+  .contact-form{
+    .container{
+      .form-fields{
+        .input{
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+  .space{
+    height: 20.1vh;
+  }
+    
+}
+
+
+//mobile
+@media(max-width: 576px) {
+  html{
+    font-size: 7.5px;
+  }
+  .scroll-totop{
+    bottom:3rem;
+  }
+  .header{
+    &-home{
+      .logo{
+        width: 7rem;
+        margin-top: 1.6rem;
+      }
+    }
+    
+  }
+  main{
+    .first-view{
+        height: 74vh;
+        .header-content{
+          h1{
+            font-size: 3rem;
+          }
+          .typewrite{
+            font-size: 2.5rem;
+          }
+        }
+       
+      }
+    .introduction{
+      .article{
+        width: 540px;
+        .abilities{
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    }
+    .second-view{
+      height: 86vh;
+      .container{
+        .aboutme-photo{
+          width: 450rem;
+          margin-top: 18rem;
+        }
+      }
+      .title{
+        height: 5vh;
+        
+      }
+    
+    }
+  }
+  .contact-form{
+    .container{
+      .form-fields{
+        .input{
+          margin-bottom: 6rem;
+        }
+      }
+    }
+  }
+  .space{
+    height: 18.4vh;
+  }
+    
+}
+ 
+

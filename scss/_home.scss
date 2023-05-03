@@ -1,0 +1,105 @@
+main{
+    .first-view{
+        background-image: url('../img/background.jpeg');
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .header-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            height: 100%;
+            
+            h1{
+                color: #fff;
+                font-size: 5rem;
+                margin: 1.8rem;
+            }
+            .typewrite{
+                display: block;
+                font-size: 4rem;
+                color: red;
+                margin-bottom: 2rem;
+                font-weight: bold;
+    
+            }
+            a{
+                &:hover{
+                    background-color: $primary-color;
+                }
+            }
+        }
+    }
+
+    .introduction{
+        background-color: #EDF5F7;
+        .article{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            h1{
+                font-size: 3rem;
+                font-family: 'Prompt', sans-serif;
+                font-weight: 400;
+                margin-top:2rem
+            }
+            p{
+                line-height: 1.5;
+            }
+            .horizontal-divider{
+                border: 1.5px solid red ;
+                width: 15%;
+                color: red;
+                display: inline-block;
+                margin: auto;
+                margin-bottom: 2rem;
+                margin-top:1rem;
+            }
+            .abilities{
+                display: grid;
+                grid-template-columns: repeat(5, .5fr);
+                gap: 1rem;
+                margin-bottom: 2.5rem;
+                margin-top: 2.5rem;
+                
+                .abilitiy{
+                    padding: 1rem;
+                    margin: 3rem;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    h2{
+                    font-size: 2rem;
+                    font-family: 'Prompt', sans-serif;
+                    font-weight: 400;
+                    margin-top:2rem;
+                    margin-bottom:1rem;
+                    
+                    }
+                    
+                              
+                }
+            }
+        
+            .business{
+                display: flex;
+                .business-logos{
+                    
+                    flex: 33%;
+                    width: 10%;
+                    flex-direction: column;
+                    margin: 1rem;
+                    i{
+                        margin: 1rem;
+                        &:hover{
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

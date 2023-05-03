@@ -1,0 +1,72 @@
+.contact-form{
+    .title{
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            font-family: 'Prompt', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 0px;
+            padding-top: 2rem;
+            margin-bottom: 0px;
+        }
+        .horizontal-divider{
+            border: 1.5px solid red ;
+            width: 10%;
+            color: red;
+            display: inline-block;
+            margin: auto;
+            margin-bottom: 2rem;
+            margin-top:1rem;
+            
+        }
+    }
+    .container{
+        .form-fields{
+            display: grid;
+            grid-template-areas: 
+                'name email'
+                'subject phone'
+                'message message'
+                'button button'
+            ;
+            
+            gap: 1rem;
+            margin-bottom: 1rem;
+
+            .name{
+                grid-area: name;
+            }
+            .email{
+                grid-area: email;
+            }
+            .subject{
+                grid-area: subject;
+            }
+            .phone{
+                grid-area: phone;
+            }
+            .message{
+                grid-area: message;
+                height: 18rem;
+            }
+            .btn-dark{
+                grid-area: button;
+                height: 4rem;
+                &:hover{
+                    background-color: $primary-color;
+                }
+            }
+            .input{
+                padding: .5rem 1rem;
+            }
+            
+        }
+    }
+}
+.space{
+    height: 18.5vh;
+}

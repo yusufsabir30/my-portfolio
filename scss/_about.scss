@@ -1,0 +1,130 @@
+.second-view{
+    background-color: #EDF5F7;
+    height: 85vh;
+
+    
+    .container{
+     display: flex;
+     
+        .aboutme-photo{
+            margin-top: 2rem;
+            width: 200rem;
+            
+            img{
+                width: 100%;
+                border: 1px solid gray;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+        }   
+        .aboutme-text{
+            margin-top: 10rem;
+            text-align: center;
+            padding: 5rem;
+            line-height: 1.5;
+            a{
+                margin-top: 2rem;
+                &:hover{
+                    color: $dark-color;
+                    background-color: $primary-color;
+                }
+            }
+        }
+        
+    }
+    
+    .title{
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            font-family: 'Prompt', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 0px;
+            padding-top: 2rem;
+            margin-bottom: 0px;
+        }
+        .horizontal-divider{
+            border: 1.5px solid red ;
+            width: 10%;
+            color: red;
+            display: inline-block;
+            margin: auto;
+            margin-bottom: 2rem;
+            margin-top:1rem;
+            
+        }
+    }
+}
+
+.resume{
+    background-color:#A6D0DD;
+    .title{
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            font-family: 'Prompt', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 0px;
+            padding-top: 2rem;
+            margin-bottom: 0px;
+        }
+        .horizontal-divider{
+            border: 1.5px solid red ;
+            width: 10%;
+            display: inline-block;
+            margin: auto;
+            margin-bottom: 2rem;
+            margin-top:1rem;
+            
+        }
+    }
+ .container{
+    display: flex;
+    justify-content: center;
+    .lightbox-img{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: 1px solid gray;
+        border-radius: 15px;
+        width: 40rem;
+            img{
+                width: 100%;
+                border-radius: 25px;
+                &:hover{
+                    opacity: .8;
+                }
+            }
+    }
+ }
+  
+    .lightbox-languages{
+        margin-top: 2rem;
+        ul{
+            display: flex;
+            li{
+                margin: 2rem;
+                text-align: center;
+                img{
+                    width: 5rem;
+                    margin: 1rem;
+                    
+                }
+                p{
+                    margin: 1rem;
+                }
+            }
+        }
+            
+    }
+}
+    
+
+
+// Mixin makes error, i tried so hard to solve but i could not find. that is why there is some code reuse.
